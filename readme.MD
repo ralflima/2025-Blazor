@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/ralflima/2025-Blazor/blob/main/logo.png" width="30%">
+  <img src="https://github.com/ralflima/2025-Blazor/blob/master/logo.png" width="30%">
   <h1 style="border-bottom:none">Blazor</h1>
   <p>Instrutor: Ralf Schweder de Lima</p>
   
