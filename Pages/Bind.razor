@@ -1,0 +1,14 @@
+@page "/bind"
+
+<select @bind="_cor">
+    <option>Selecione uma cor</option>
+    <option>Azul</option>
+    <option>Verde</option>
+    <option>Amarelo</option>
+</select>
+
+<p>@_cor</p>
+
+@code{
+    private string _cor = "Selecione uma cor";
+}

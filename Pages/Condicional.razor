@@ -1,0 +1,14 @@
+@page "/condicional"
+
+@if(_ok)
+{
+<p>Está tudo ok</p>
+}
+else
+{
+<p>Não está ok</p>
+}
+
+@code{
+    private bool _ok = false;
+}

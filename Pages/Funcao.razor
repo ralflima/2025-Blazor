@@ -1,0 +1,18 @@
+@page "/funcao"
+
+<h1>@_texto</h1>
+
+<button @onclick="@AlterarTexto">Clique aqui</button>
+
+@code{
+
+    // Variável
+    private string _texto = "...";
+
+    // Função
+    private void AlterarTexto()
+    {
+        _texto = "A função funcionou!";
+    }
+
+}

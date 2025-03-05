@@ -1,0 +1,20 @@
+@page "/escolha"
+
+@switch(_cidade)
+{
+    case "São Paulo":
+    <p>A maior cidade do país.</p>
+    break;
+
+    case "Joinville":
+    <p>A maior cidade do estado de Santa Catarina.</p>
+    break;
+
+    default:
+    <p>Cidade não encontrada.</p>
+    break;
+}
+
+@code{
+    private string _cidade = "Curitiba";
+}
